@@ -1,0 +1,6 @@
+framework module Pods_FedfinaFramework_Framework {
+  umbrella header "Pods-FedfinaFramework_Framework-umbrella.h"
+
+  export *
+  module * { export * }
+}

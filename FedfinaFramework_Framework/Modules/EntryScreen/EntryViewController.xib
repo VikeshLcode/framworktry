@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EntryViewController" customModule="LcodeBase" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="Wpq-oO-uj8" id="UtC-2y-P4m"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="Wpq-oO-uj8">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="25Y-8b-nro">
+                    <rect key="frame" x="177" y="96" width="60" height="30"/>
+                    <state key="normal" title="Payment"/>
+                    <connections>
+                        <action selector="payment_click:" destination="-1" eventType="touchUpInside" id="ExR-aY-t4Y"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select Any one Option" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d3D-3U-5DN">
+                    <rect key="frame" x="121.66666666666669" y="50" width="171" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zag-GA-B8K">
+                    <rect key="frame" x="151.66666666666666" y="176" width="110.99999999999997" height="30"/>
+                    <state key="normal" title="Account-Details"/>
+                    <connections>
+                        <action selector="accountDetailClick:" destination="-1" eventType="touchUpInside" id="DBv-Sf-P1d"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ogW-dg-k6F">
+                    <rect key="frame" x="151.66666666666666" y="216" width="110.99999999999997" height="30"/>
+                    <state key="normal" title="Payment-Status"/>
+                    <connections>
+                        <action selector="paymentStatuClick:" destination="-1" eventType="touchUpInside" id="DQx-sn-qe0"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JUF-1P-siC">
+                    <rect key="frame" x="159" y="256" width="96" height="30"/>
+                    <state key="normal" title="Loan-Replede"/>
+                    <connections>
+                        <action selector="loanRepledgeClick:" destination="-1" eventType="touchUpInside" id="1I6-qW-LTZ"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UEQ-0u-e7v">
+                    <rect key="frame" x="149" y="296" width="116" height="30"/>
+                    <state key="normal" title="Repledge-Status"/>
+                    <connections>
+                        <action selector="RepledgeStatusClick:" destination="-1" eventType="touchUpInside" id="cVB-nK-gMu"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SML-yz-PW8">
+                    <rect key="frame" x="163" y="336" width="88" height="30"/>
+                    <state key="normal" title="Bank-Details"/>
+                    <connections>
+                        <action selector="BankDetailClcik:" destination="-1" eventType="touchUpInside" id="mAv-hf-TlU"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cPI-Yv-bIT">
+                    <rect key="frame" x="172.66666666666666" y="136" width="69" height="30"/>
+                    <state key="normal" title="My-Loans"/>
+                    <connections>
+                        <action selector="myLoanClick:" destination="-1" eventType="touchUpInside" id="2IJ-m7-bbf"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="Zag-GA-B8K" firstAttribute="centerX" secondItem="Wpq-oO-uj8" secondAttribute="centerX" id="78A-ix-7Ci"/>
+                <constraint firstItem="SML-yz-PW8" firstAttribute="centerX" secondItem="Wpq-oO-uj8" secondAttribute="centerX" id="Ah8-sx-tXB"/>
+                <constraint firstItem="JUF-1P-siC" firstAttribute="centerX" secondItem="Wpq-oO-uj8" secondAttribute="centerX" id="Ax9-PA-t3u"/>
+                <constraint firstItem="d3D-3U-5DN" firstAttribute="top" secondItem="kKN-mZ-wJ1" secondAttribute="top" constant="50" id="C3o-jL-Egk"/>
+                <constraint firstItem="d3D-3U-5DN" firstAttribute="centerX" secondItem="Wpq-oO-uj8" secondAttribute="centerX" id="COE-a5-WcN"/>
+                <constraint firstItem="UEQ-0u-e7v" firstAttribute="centerX" secondItem="Wpq-oO-uj8" secondAttribute="centerX" id="G7X-xU-6Wt"/>
+                <constraint firstItem="25Y-8b-nro" firstAttribute="centerX" secondItem="Wpq-oO-uj8" secondAttribute="centerX" id="I1s-jI-8mg"/>
+                <constraint firstItem="Zag-GA-B8K" firstAttribute="top" secondItem="cPI-Yv-bIT" secondAttribute="bottom" constant="10" id="R2S-XD-6TQ"/>
+                <constraint firstItem="cPI-Yv-bIT" firstAttribute="top" secondItem="25Y-8b-nro" secondAttribute="bottom" constant="10" id="THS-0Y-yE0"/>
+                <constraint firstItem="UEQ-0u-e7v" firstAttribute="top" secondItem="JUF-1P-siC" secondAttribute="bottom" constant="10" id="Ti9-ad-qhE"/>
+                <constraint firstItem="JUF-1P-siC" firstAttribute="top" secondItem="ogW-dg-k6F" secondAttribute="bottom" constant="10" id="VnR-gw-CO1"/>
+                <constraint firstItem="SML-yz-PW8" firstAttribute="top" secondItem="UEQ-0u-e7v" secondAttribute="bottom" constant="10" id="Z7V-8u-HE0"/>
+                <constraint firstItem="ogW-dg-k6F" firstAttribute="centerX" secondItem="Wpq-oO-uj8" secondAttribute="centerX" id="cYn-io-M7z"/>
+                <constraint firstItem="cPI-Yv-bIT" firstAttribute="centerX" secondItem="Wpq-oO-uj8" secondAttribute="centerX" id="fno-9w-zmA"/>
+                <constraint firstItem="ogW-dg-k6F" firstAttribute="top" secondItem="Zag-GA-B8K" secondAttribute="bottom" constant="10" id="h8U-y2-q59"/>
+                <constraint firstItem="25Y-8b-nro" firstAttribute="top" secondItem="d3D-3U-5DN" secondAttribute="bottom" constant="25" id="lzC-sl-lFA"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="kKN-mZ-wJ1"/>
+            <point key="canvasLocation" x="132" y="131"/>
+        </view>
+    </objects>
+</document>
